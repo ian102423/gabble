@@ -1,23 +1,23 @@
 {
   "development": {
-    "username": "Ian",
+    "username": "ianlee",
     "password": null,
     "database": "gabble",
     "host": "127.0.0.1",
     "dialect": "postgres"
   },
   "test": {
-    "username": "Ian",
+    "username": "root",
     "password": null,
-    "database": "gabble",
+    "database": "database_test",
     "host": "127.0.0.1",
-    "dialect": "postgres"
+    "dialect": "mysql"
   },
   "production": {
-    "username": "Ian",
+    "username": "root",
     "password": null,
-    "database": "gabble",
+    "database": "database_production",
     "host": "127.0.0.1",
-    "dialect": "postgres"
+    "dialect": "mysql"
   }
 }
